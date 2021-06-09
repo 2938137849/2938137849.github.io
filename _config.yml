@@ -35,7 +35,6 @@ skip_render:
 new_post_name: :title.md # File name of new posts
 default_layout: post
 titlecase: false # Transform title into titlecase
-external_link: true 
 filename_case: 0
 render_drafts: false
 post_asset_folder: false
@@ -79,7 +78,7 @@ pagination_dir: page
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: hexo-theme-matery
+theme: amazing
 
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
@@ -94,22 +93,6 @@ prism_plugin:
   theme: "tomorrow"
   line_number: false # default false
   custom_css:
-
-
-live2d:
-  enable: false
-  scriptFrom: local
-  pluginRootPath: live2dw/
-  pluginJsPath: lib/
-  pluginModelPath: assets/
-  tagMode: false
-  debug: false
-  model:
-    use: 22.default
-  display:
-    position: left
-  mobile:
-    show: true
 
 search:
   path: search.xml
